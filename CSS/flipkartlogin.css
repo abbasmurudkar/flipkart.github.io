@@ -1,0 +1,638 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Roboto,Arial,sans-serif;
+
+}
+/* CONTAINER */
+.container{
+display: flex;
+height: 100%;
+justify-content: center;
+
+
+}
+.body{
+    background-color: rgb(241, 241, 241);
+    overflow-x: hidden;
+}
+/*NAVBAR  */
+.nav{
+    background-color: #2874f0;
+    height: 60px;
+    width: 100vw;
+    display: inline-block;
+    position: fixed;
+    z-index: 7;
+    
+}
+.left{
+    display: inline-block;
+    position: fixed;
+    top: 6px;
+    left: 198px;
+}
+.left img{
+    width: 82px;
+    cursor: pointer;
+}
+
+.mid{
+    display: inline-block;
+    position: fixed;
+    left: 18rem;
+    top: 12px;
+
+}
+.mid img{
+    height: 22px;
+    position: fixed;
+    top: 18px;
+    right: 39rem;
+    cursor: pointer;
+}
+.mid input{
+    width: 34rem;
+    height: 36px;
+    padding: 16px;
+}
+.mid input::placeholder{
+font-size: 14px;
+}
+.btn{
+    display: inline-block;
+    position: fixed;
+    top: 14px;
+    right: 21rem;
+    background-color: #fff;
+    
+}
+
+.btn button{
+    height: 32px;
+    padding: 5px 40px;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid #dbdbdb;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.btn h1{
+    font-size: 16px;
+    font-weight: 500;
+    color: #2874f0;
+
+}
+.right{
+    display: flex;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+.right h1{
+    font-size: 17px;
+    position: fixed;
+    right: 15rem;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.right h1:hover{
+    transform:scale(1.1);
+}
+.right img[src="./assets/cart.png"]{
+    display: inline-block;
+    position: relative;
+    right: 2px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.right img[src="./assets/cart.png"]:hover{
+    transform:scale(1.1);
+}
+.right span{
+    font-weight: 500;
+    color: white;
+    position: fixed;
+    right: 120px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.right span:hover{
+    transform:scale(1.1);
+}
+ /*  SUBMENU  */
+.menu{
+    display: block;
+    width: 100vw;
+    position: absolute;
+    top :60px;
+    background-color: white;
+
+}
+.comp{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    height: 40px;
+    box-shadow: 1px 1px 10px black;
+}
+
+.comp #elec:hover #rotation{
+    transform: rotate(180deg);
+}
+.comp #baby:hover #rotation{
+    transform: rotate(180deg);
+}
+.comp #women:hover #rotation{
+    transform: rotate(180deg);
+}
+.comp #tvs:hover #rotation{
+    transform: rotate(180deg);
+}
+.comp #men:hover #rotation{
+    transform: rotate(180deg);
+}
+.comp #home:hover #rotation{
+    transform: rotate(180deg);
+}
+.comp #sports:hover #rotation{
+    transform: rotate(180deg);
+}
+.comp ul li {
+    padding: 15px 0px;
+    list-style: none;
+    display: inline-block;
+}
+.comp ul li a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 0px 24px;
+    font-weight: 500;
+    font-size: 14px;
+}
+#hide li{
+    font-size:13px;
+}
+#hide li span{
+    font-size: 14px;
+}
+.comp ul ul{
+    transform: translate(-8px);
+    display: none;
+    position: absolute;
+    top: 45px;
+    background-color: white;
+    width: 88%;
+    right: 90px;
+    height: 550px;
+    /* border: 2px solid green; */
+}
+.comp ul ul ul{
+    display: none;
+    position: absolute;
+    top: 45px;
+    background-color: white;
+    width: 88%;
+    right: 90px;
+    height: 500px;
+}
+.comp #elec:hover #hide {
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+.comp #tvs:hover #hide{
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+.comp ul ul ul ul{
+    display: none;
+    position: absolute;
+    top: 45px;
+    background-color: white;
+    width: 88%;
+    right: 90px;
+    height: 500px;
+}
+.comp #men:hover #hide{
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+.comp ul ul ul ul ul ul{
+    display: none;
+    position: absolute;
+    top: 45px;
+    background-color: white;
+    width: 88%;
+    right: 90px;
+    height: 500px;
+}
+.comp #women:hover #hide{
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+.comp ul ul ul ul ul ul ul{
+    display: none;
+    position: absolute;
+    top: 45px;
+    background-color: white;
+    width: 88%;
+    right: 90px;
+    height: 500px;
+}
+.comp #baby:hover #hide{
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+.comp ul ul ul ul ul ul ul ul{
+    display: none;
+    position: absolute;
+    top: 45px;
+    background-color: white;
+    width: 88%;
+    right: 90px;
+    height: 500px;
+} 
+.comp #home:hover #hide{
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+.comp ul ul ul ul ul ul ul ul ul{
+    display: none;
+    position: absolute;
+    top: 45px;
+    background-color: white;
+    width: 88%;
+    right: 90px;
+    height: 500px;
+} 
+.comp #sports:hover #hide{
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.comp ul li a:hover{
+    color: #2874f0;
+} 
+.comp ul li i:hover{
+    transform: rotate(180deg);
+}
+
+#c1{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 255px;
+
+}
+.boxe1{
+    box-shadow: 2px 2px 10px lightgray;
+}
+.boxe1 li{
+    position: relative;
+    top: 20px;
+    left: 25px;
+    line-height: 25px;
+    font-size: 14px;
+color: gray;
+cursor: pointer;
+display: block;
+}
+#c1 li span{
+color: black;
+}
+#c1 li i{
+    color: grey;
+}
+.boxe2{
+    background-color: rgb(245, 243, 243);
+    box-shadow: 2px 2px 5px lightgray;
+}
+.boxe2 li{
+    position: relative;
+    top: 20px;
+    left: 25px;
+    line-height: 25px;
+    font-size: 14px;
+color: gray;
+width: 200px;
+cursor: pointer;
+}
+.boxe3 li{
+    position: relative;
+    top: 20px;
+    left: 25px;
+    line-height: 25px;
+    font-size: 14px;
+color: gray;
+cursor: pointer;
+}
+.boxe3{
+    box-shadow: 2px 2px 5px lightgray;
+}
+.boxe4{
+    background-color: rgb(245, 243, 243);
+    box-shadow: 2px 2px 5px lightgray;
+}
+.boxe4 li{
+position: relative;
+    top: 20px;
+    left: 25px;
+    line-height: 25px;
+    font-size: 14px;
+color: gray;
+cursor: pointer;
+}
+.boxe5 li{
+    position: relative;
+    top: 20px;
+    left: 25px;
+    line-height: 25px;
+    font-size: 14px;
+color: gray;
+cursor: pointer;
+}
+.boxe5{
+    box-shadow: 2px 2px 5px lightgray;
+}
+.loginpageside{
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    height: 550px;
+    background-color: #2874f0;
+}
+
+.loginpage{
+    height: 555px;
+    position: absolute;
+    width: 900px;
+    top: 70px;
+    left: 300px;
+}
+#par1{
+    color: white;
+    position: absolute;
+    top: 43px;
+    left: 10;
+    left: 35px;
+    font-size: 28px;
+    font-weight: 600;
+    display: block;
+}
+#par2{
+    display: block;
+    position: absolute;
+    color: #dbdbdb;
+    left: 35px;
+    line-height: 150%;
+    top: 95px;
+    font-weight: 600;
+}
+.loginpageside img{
+    width: 240px;
+    position: relative;
+    top: 310px;
+    left: 60px;
+}
+.form
+{
+    position: absolute;
+    top: 0px;
+    left: 360px;
+    width: 60%;
+    height: 550px;
+    background-color: white;
+}
+.form #mail{
+    color: gray;
+    font-size: 14px;
+    position: relative;
+    top: 55px;
+    left: 35px;
+}
+#gmail{
+    position: absolute;
+    top: 75px;
+    left: 35px;
+    width: 80%;
+    height: 25px;
+    border: none;
+    border-bottom: 2px solid #2874f0;
+}
+input:focus{
+    outline: none;
+}
+.form #pass{
+    color: gray;
+    font-size: 14px;
+    position: absolute;
+    top: 120px;
+    left: 35px;
+}
+#password{
+    position: absolute;
+    top: 140px;
+    left: 35px;
+    width: 80%;
+    height: 25px;
+    border: none;
+    border-bottom: 2px solid #2874f0;
+}
+.form p{
+    font-size: 12px;
+    color: gray;
+    position: relative;
+    top: 180px;
+    left: 35px;
+}
+.form span{
+    color: #2874f0;
+    cursor: pointer;
+}
+.form button{
+    top: 200px;
+    position: relative;
+    left: 35px;
+    width: 80%;
+    height: 45px;
+    font-size: 15px;
+    color: white;
+    background-color: #fb641b;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+#PAR{
+    top: 215px;
+    left: 235px;
+  font-size: 14px;
+  display: block;
+}
+#btn{
+    background: white;
+    color: #2874f0;
+    box-shadow: 0px 2px 4px grey;
+    top: 230px;
+    display: block;
+}
+#para2{
+    top: 360px;
+    font-size: 14px;
+    font-weight: 600;
+    left: 140px;
+    color: #2874f0;
+    cursor: pointer;
+}
+#forget{
+    top: -12px;
+    left: 417px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+color:#2874f0;
+}
+.components{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 340px;
+    top: 40rem;
+    background-color: rgb(25, 33, 49);
+    padding: 40px 55px;
+}
+.about{
+    
+    width: 180px;
+    height: 200px;
+    display: flex;
+justify-content: center;
+}
+#comp{
+    list-style: none;
+    line-height: 24px;
+    font-size: 12px;
+    color: #fff;
+    cursor: pointer;
+}
+#comp1{
+    list-style: none;
+    line-height: 24px;
+    font-size: 12px;
+    color: #fff;
+}
+#comp li:hover{
+    text-decoration: underline;
+}
+#about1{
+    color: #878787;
+    line-height: 40px;
+    list-style: none;
+    font-size: 12px;
+}
+.help{
+    
+    width: 180px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.Policy{
+    
+    width: 180px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.Social{
+   
+    width: 180px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.Social li a{
+color: white;
+text-decoration: none;
+}
+#line{
+    top: 25px;
+    right: -50px;
+    position: relative;
+    height: 150px;
+    border: 1px solid grey;
+}
+.MailUs{
+    
+    width: 255px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 70px;
+}
+.MailUs ul li{
+    line-height: 20px;
+}
+.Officeaddress ul li{
+    line-height: 20px;
+}
+.Officeaddress{
+   
+    width: 255px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 92px;
+}
+.Officeaddress p6{
+    color:#2874f0;
+}
+.logos{
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: 56rem;
+    display: flex;
+}
+
+.line hr{
+    width: 1424px;
+    border: 1px solid grey ;
+}
+.hosters{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content:space-evenly;
+}
+#logo{
+    color: gold;
+}
+.hosters p a{
+    color:white;
+    font-size: 14px;
+    text-decoration: none;
+}
+.hosters p{
+    color: white;
+}
