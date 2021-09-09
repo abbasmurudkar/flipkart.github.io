@@ -6,5 +6,5 @@
   Flipkart which is basically a e-commerce’s website.<br> Which is build by <strong>Sachin Bansal</strong>.
   </i>
 </p>
----
+```
 <h2>THE SOFTWARE REQUIRED TO BUILD PROJECT</h2>
