@@ -3,6 +3,6 @@
 <img src="assets/flipi.png" alt="flipkart" height="100" width="100" >
   <br>
 <i>
-  FLIPKART WHICH BASICALLY A E-COMMERCE WEBSITE WHICH IS BUILD BY <strong>Sachin Bansal</strong>.
+  Flipkart which is basically a e-commerce’s website.<br> Which is build by <strong>Sachin Bansal</strong>.
   </i>
 </p>
