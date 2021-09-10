@@ -22,13 +22,10 @@ https://github.com/abbasmurudkar/flipkart-clone
   <li>Open `index.html` in any Browser</li>
   </ol>
 
-## :scroll: Changelog
-
-- Be sure to check out the [Changelog] and Read CHANGELOG.md
-
 ## :camera: Screenshot:
-
--![Screenshot from 2021-07-24 21-07-42](https://user-images.githubusercontent.com/68471938/126873644-d9aec2ef-1ba8-4348-9b6f-a1c9ee7322d0.png)
+<a href="https://www.github.com/abbasmurudkar">
+  <img src="assets/flipi25.png">
+  </a>
 
 ## :octocat: Credits:
 
