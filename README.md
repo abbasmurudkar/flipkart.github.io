@@ -8,13 +8,10 @@
   </i>
   <br>
   <a href="https://www.flipkart.com">www.flipkart.com</a>
-</p>
-<p align="center">
-   
-  <i>PARTNERS:-<strong>
+   <i>PARTNERS:-<strong>
 Global retail giant Walmart 
     </strong></i>
-  </p>
+</p>
   <hr>
 
 
