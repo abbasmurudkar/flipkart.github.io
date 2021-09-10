@@ -7,7 +7,8 @@
   Flipkart which is basically a e-commerce’s website.<br> Which is build by <strong>Sachin Bansal</strong>.
   </i>
   <br>
-  <a href="https://www.flipkart.com">www.flipkart.com</a><br>
+  <a href="https://www.flipkart.com">www.flipkart.com</a>
+  <br>
    <i>PARTNERS:-<strong>
 Global retail giant Walmart 
     </strong></i>
