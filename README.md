@@ -32,7 +32,7 @@ https://github.com/abbasmurudkar/flipkart-clone
 
 ## :octocat: Credits:
 
-- Anurag Rajput (https://www.linkedin.com/in/abbas-murudkar-0084391ba/)
+- ABBAS MURUDKAR (https://www.linkedin.com/in/abbas-murudkar-0084391ba/)
 
 ## :memo: Disclaimer:
 
