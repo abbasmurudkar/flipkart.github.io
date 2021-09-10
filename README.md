@@ -6,7 +6,6 @@ Flipkart which is basically a e-commerce’s website.<br> Which is build by <str
 </i><br>
 <a href="https://www.flipkart.com">www.flipkart.com</a><br>
 </p>
-<hr>
 <h2>Flipkart Clone Project:</h2>
 
 This is a simple clone of webpage flipkart.com using HTML, CSS. Check out the page at
