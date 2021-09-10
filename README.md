@@ -10,12 +10,12 @@ Global retail giant Walmart
 </strong></i>
 </p>
 <hr>
-# Flipkart Clone Project:
+<h2>Flipkart Clone Project:</h2>
 
-This is a simple clone of webpage flipkart.com using HTML, CSS and JavaScript. Check out the page at
-https://github.com/anurag0345/flipkart-clone
+This is a simple clone of webpage flipkart.com using HTML, CSS. Check out the page at
+https://github.com/abbasmurudkar/flipkart-clone
 
-## :page_facing_up: How to use:
+<h2>page_facing_up: How to use:</h2>
 
 - Download the ZIP file
 - Extraxt from any ZIP Extracter
