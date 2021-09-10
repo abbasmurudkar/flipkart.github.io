@@ -15,8 +15,8 @@
 Global retail giant Walmart 
     </strong></i>
   </p>
+  <vr>
 
 
 
-<h2>THE SOFTWARE REQUIRED TO BUILD PROJECT</h2>
 
