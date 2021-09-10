@@ -16,10 +16,11 @@ This is a simple clone of webpage flipkart.com using HTML, CSS. Check out the pa
 https://github.com/abbasmurudkar/flipkart-clone
 
 <h2>page_facing_up: How to use:</h2>
-
-- Download the ZIP file
-- Extraxt from any ZIP Extracter
-- Open `index.html` in any Browser
+<ol>
+  <li>Download the ZIP file</li>
+  <li>Extraxt from any ZIP Extracter</li>
+  <li>Open `index.html` in any Browser</li>
+  </ol>
 
 ## :scroll: Changelog
 
