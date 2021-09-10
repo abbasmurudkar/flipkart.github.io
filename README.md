@@ -15,7 +15,7 @@
 Global retail giant Walmart 
     </strong></i>
   </p>
-  <vr>
+  <hr>
 
 
 
