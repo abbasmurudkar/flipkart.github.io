@@ -24,7 +24,7 @@ https://github.com/abbasmurudkar/flipkart-clone
 
 ## :camera: Screenshot:
 <a href="https://www.github.com/abbasmurudkar">
-  <img src="assets/flipi25.png">
+  <img src="assets/flipli25.png">
   </a>
 
 ## :octocat: Credits:
